@@ -1,0 +1,14 @@
+<div class="recette-list">
+    <h2>Liste des Recettes</h2>
+    <input type="text" placeholder="Rechercher une recette..." [(ngModel)]="searchTerm">
+    <ul>
+      <li *ngFor="let recette of filteredRecettes">
+        <h3>{{ recette.nom }}</h3>
+        <p>{{ recette.description }}</p>
+      </li>
+    </ul>
+  </div>
+  
+
+
+  

@@ -1,0 +1,36 @@
+/* src/app/recette-list/recette-list.component.css */
+
+.recette-list {
+    background-color: white; /* Fond blanc pour la liste des recettes */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(226, 135, 167, 0.1);
+  }
+
+  .recette-list h3 {
+    text-decoration: underline; /* Ajoute un soulignement au texte */
+    color: #c65a80; /* Couleur du texte */
+    margin-top: 0; /* Supprime la marge au-dessus du titre */
+    margin-bottom: 10px; /* Ajoute un espace sous le titre */
+  }
+  
+  .recette-list input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .recette-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recette-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

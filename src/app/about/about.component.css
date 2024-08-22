@@ -1,0 +1,10 @@
+.footer a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

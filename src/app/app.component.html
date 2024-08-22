@@ -1,0 +1,18 @@
+<div class="app-container">
+  <!-- Contenu de la page -->
+  <router-outlet></router-outlet>
+  
+  <!-- Composant de la liste des recettes -->
+  <app-recette-list></app-recette-list>
+  
+  <!-- Lien vers la page About -->
+  <a [routerLink]="['/about']">About me</a>
+  
+  <!-- Section pour le nom, prénom et logo en bas à droite -->
+  <div class="bottom-right-info">
+    <img src="assets/logochat.png" alt="cat" class="logo">
+    <div class="info">
+      <p>Craspouille website</p>
+    </div>
+  </div>
+</div>

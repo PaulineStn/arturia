@@ -1,0 +1,28 @@
+/* src/styles.css ou src/app/app.component.css */
+
+/* Style pour la section en bas à droite */
+.bottom-right-info {
+    position: fixed; /* Fixe la position en bas à droite */
+    bottom: 20px; /* Espacement depuis le bas */
+    right: 20px; /* Espacement depuis le côté droit */
+    display: flex; /* Utiliser flexbox pour aligner les éléments */
+    align-items: center; /* Centrer verticalement */
+    gap: 10px; /* Espacement entre le logo et le texte */
+    background-color: rgba(248, 203, 219, 0.9); /* Fond blanc avec transparence */
+    padding: 10px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre */
+  }
+  
+  .logo {
+    width: 50px; /* Largeur du logo */
+    height: auto; /* Conserver les proportions du logo */
+  }
+
+  
+  
+  .info {
+    font-size: 15px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+  }
+  
