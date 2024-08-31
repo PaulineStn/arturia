@@ -1,0 +1,33 @@
+.agenda {
+    display: inline-flex; /* Utiliser inline-flex pour centrer le contenu */
+    flex-wrap: wrap;
+    justify-content: center; /* Centrer les carrés à l'intérieur de l'agenda */
+
+  }
+  
+  .day {
+    width: 250px;
+    height: 250px;
+    margin: 0.5px;
+    background-color: #f2eceb;
+    color: black;
+    font-weight: bold; /* Met la date en gras */
+    padding: 5px; /* Ajoute un peu de padding pour espacer la date du bord */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligne le contenu verticalement en haut */
+    border-radius: 5px;
+    border: 1px solid #070707; /* Ajoute une bordure fine blanche */
+  }
+  
+  .clear-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .clear-button:hover {
+    color: red;
+  }

@@ -1,0 +1,52 @@
+.todo-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espace les éléments pour que le bouton soit à droite */
+    padding: 5px 0;
+  }
+  
+  .todo-list input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-list .completed span {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 1.2rem;
+  }
+  
+  .delete-btn:hover {
+    color: darkred;
+  }
+  

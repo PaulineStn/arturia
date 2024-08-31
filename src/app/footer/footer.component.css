@@ -1,0 +1,7 @@
+/* src/app/footer/footer.component.css */
+
+    .app-footer {
+        position: fixed; /* Fixe la position en bas à droite */
+        bottom: 20px; /* Espacement depuis le bas */
+        left: 20px;
+    }

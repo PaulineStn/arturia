@@ -1,0 +1,15 @@
+<div style="display: flex; align-items: center;">
+    <label for="vacationRange">Entrer les dates de vos vacances (JJ/MM-JJ/MM):</label>
+    <input id="vacationRange" [(ngModel)]="dateRange" (input)="generateAgenda()" placeholder="01/08-15/08" />
+    <button (click)="clearAgenda()" class="clear-button" title="Effacer l'agenda">
+      🗑️ <!-- Ici, j'utilise une simple icône emoji. -->
+    </button>
+  </div>
+  
+  <div *ngIf="days.length > 0">
+    <h3>Votre agenda :</h3>
+    <div class="agenda">
+      <div *ngFor="let day of days" class="day">{{ day }}</div>
+    </div>
+  </div>
+  
